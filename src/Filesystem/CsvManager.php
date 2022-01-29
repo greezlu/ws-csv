@@ -17,6 +17,9 @@ class CsvManager
      */
     private AdminFileManager $adminFileManager;
 
+    /**
+     * CsvManager constructor.
+     */
     public function __construct()
     {
         $this->adminFileManager = new AdminFileManager();

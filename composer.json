@@ -1,0 +1,32 @@
+{
+    "name": "greezlu/ws-csv",
+    "description": "CSV Manager",
+    "type": "project",
+    "license": "MIT",
+    "homepage": "https://github.com/greezlu/ws-csv",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "greezlu",
+            "email": "greezlu@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~7.4.0",
+        "ext-mbstring": "*",
+        "greezlu/ws-filesystem": "*",
+        "greezlu/ws-exception": "*"
+    },
+    "keywords": [
+        "php",
+        "csv"
+    ],
+    "autoload": {
+        "psr-4": {
+            "WebServer\\": "src"
+        },
+        "files": [
+            "polyfill.php"
+        ]
+    }
+}

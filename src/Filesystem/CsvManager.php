@@ -61,7 +61,7 @@ class CsvManager
      * @return array
      * @throws LocalizedException
      */
-    public function readCSV(string $filePath): array
+    public function readCsv(string $filePath): array
     {
         $fileDescriptor = $this->adminFileManager->getDescriptor($filePath, 'r');
 
